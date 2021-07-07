@@ -35,5 +35,9 @@
         </style>
     </head>
     <body>
+    <ul>
+    <li>milk</li>
+    <li>eggs</li>
+    </ul>
     </body>                
 </html>

@@ -70,7 +70,7 @@ header, footer {
 
 /* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
 
-/* NO changes should be made to any of the code above. */
+
 
 /* NOTE: While you will be using some of the same CSS properties, the VALUES 
    may need to be different in order to style the page correctly. */
@@ -78,41 +78,88 @@ header, footer {
 
 
 /* Imported Typfaces */
-
-
-
-
+@font-face {
+    font-family: Josefins;
+    src: url(school-site/fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(school-site/fonts/montserrat-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Typography Styles */
+html {
+    font-family: Montserrat, Arial, sans-serif;
+}
+h1 {
+    font-family: Josefinslab, Arial, sans-serif
+    letter-spacing: .125rem;
 
+}
+h2 {
+    letter-spacing: .125rem;
+}
+h2 + p {
+    letter-spacing: .125rem;
+}
+p {
 
+}
+li {
 
+}
+figcaption {
 
+}
 
 
 /* Link Styling */
 
+a{
 
+}
+a:link,
+a:hover {
 
+}
+a:focus,
+a:hover {
 
+}
 
 
 /* List Styling */
+ul {
 
+}
+ol {
 
+}
+.long-list a:hover {
 
-
-
-
+}
 /* Navigation Menu */
+nav {
 
+}
+nav a {
 
+}
+nav a:focus,
+nav a:hover {
 
+}
+nav a:active {
 
-
-
+}
 /* Footer Styles */
+footer {
 
+}
 
 
 

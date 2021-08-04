@@ -90,10 +90,10 @@ header, footer {
 
 /* Typography Styles */
 html {
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
 }
 h1 {
-    font-family: Josefinslab, Arial, Helvetica, sans-serif;
+    font-family: Josefinslab, Arial, sans-serif;
     letter-spacing: .125rem;
     text-align: center;
     font-size: 3.75rem;
@@ -102,12 +102,12 @@ h1 {
 }
 h2 {
     letter-spacing: .125rem;
-    font-family: Josefinslab, Arial, Helvetica, sans-serif;
+    font-family: Josefinslab, Arial, sans-serif;
     font-size: 1.5rem;
 
 }
 h2 + p {
-    font-family: Josefinslab, Arial, Helvetica, sans-serif;
+    font-family: Josefinslab, Arial, sans-serif;
     text-indent: 1.5rem;
 }
 p {
@@ -164,10 +164,9 @@ ol {
 nav {
     padding: 0rem;
     margin-top: .25rem;
-}
-nav a {
     text-decoration: none;
-    width: 100%;
+    width: 100;
+    display: inline-block;
     line-height: 3;
     text-align:center;
     font-size: 1.125rem;
@@ -175,6 +174,9 @@ nav a {
     border: solid;
     border-width: .063rem;
     border-color: #33658A;
+}
+nav a {
+
 }
 nav a:focus,
 nav a:hover {

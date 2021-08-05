@@ -73,24 +73,24 @@ header, footer {
 
 /* Imported Typfaces */
 @font-face {
-    font-family: josefinslab;
-    src: url(/Users/annarodriguez/Documents/Github /allrodz93.github.io/school-site/fonts/josefinslab-regular.ttf) format ('truetype');
+    font-family: Josefinslab;
+    src: url(school-site/fonts/josefinslab-regular.ttf) format ('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: Montserrat;
-    src: url() format ('truetype');
+    src: url(school-site/fonts/montserrat-regular.ttf) format ('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 /* Typography Styles */
 html {
-    font-family: Montserrat;
+    font-family: Montserrat, Arial, sans-serif;
 }
 h1 {
-    font-family: Montserrat;
+    font-family: Josefinslab, Arial, sans-serif;
     letter-spacing: .125rem;
     text-align: center;
     font-size: 3.75rem;
@@ -98,12 +98,12 @@ h1 {
 }
 h2 {
     letter-spacing: .125rem;
-    font-family: josefinslab; 
+    font-family: Josefinslab; 
     font-size: 1.5rem;
 
 }
 h2 + p {
-    font-family: josefinslab;
+    font-family: Josefinslab, Arial, sans-serif;
     text-indent: 1.5rem;
 }
 p {

@@ -73,8 +73,8 @@ header, footer {
 
 /* Imported Typfaces */
 @font-face {
-    font-family: Josefinslab;
-    src: url(school-site/fonts/josefinslab-regular.ttf) format ('truetype');
+    font-family: josefinslab;
+    src: url(/Users/annarodriguez/Documents/Github /allrodz93.github.io/school-site/fonts/josefinslab-regular.ttf) format ('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -98,7 +98,7 @@ h1 {
 }
 h2 {
     letter-spacing: .125rem;
-    font-family: Josefinslab; 
+    font-family: josefinslab; 
     font-size: 1.5rem;
 
 }

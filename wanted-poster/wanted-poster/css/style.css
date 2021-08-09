@@ -25,7 +25,7 @@ html {
 /* Body & Main  */
 
 body {
-    font-family:'Lato', Arial, sans-serif;
+    font-family:Lato, Arial, sans-serif;
     font-size:1rem;
     padding:1rem;
     min-width:39rem;
@@ -34,7 +34,7 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(../images/wrinkled-white-paper-background.jpg);
+    background-image:url(/wanted-poster/wanted-poster/images/wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
